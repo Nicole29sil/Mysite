@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRAND YARD j.d.o.o.</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #111;
+      line-height: 1.6;
+      font-size: 20px;
+    }
+
+    header, section {
+      padding: 80px 10%;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1584384689201-e0bcbe2c7f1d?w=1600&auto=format&fit=crop&q=60');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero h1 {
+      font-size: 64px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .hero p {
+      max-width: 800px;
+      font-size: 24px;
+      margin: 20px auto;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 15px 40px;
+      background: #ffffff;
+      color: #111;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .hero a:hover {
+      background: #f2f2f2;
+    }
+
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .about img {
+      width: 45%;
+      border-radius: 10px;
+    }
+
+    .about-text {
+      width: 50%;
+      min-width: 300px;
+    }
+
+    .services, .advantages, .process {
+      text-align: center;
+    }
+
+    .service-item, .advantage-item, .process-step {
+      margin-bottom: 40px;
+    }
+
+    .contacts {
+      background-image: url('https://images.unsplash.com/photo-1584384689201-e0bcbe2c7f1d?w=1600&auto=format&fit=crop&q=60');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contacts h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .contacts p {
+      font-size: 24px;
+      max-width: 800px;
+    }
+
+    .contacts a {
+      color: #fff;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 18px;
+      color: #555;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- 1. Glavni ekran -->
+  <section class="hero">
+    <h1>BRAND YARD j.d.o.o.</h1>
+    <p>Podržavamo poduzeća u rastu kroz strateški marketing, kreativno brendiranje i profesionalne poslovne usluge. 
+      Naš cilj je pretvoriti Vašu ideju u snažan i prepoznatljiv identitet koji donosi rezultate.</p>
+    <a href="#kontakt">KONTAKT</a>
+  </section>
+
+  <!-- 2. O nama -->
+  <section class="about" id="o-nama">
+    <div class="about-text">
+      <h2>Tko smo mi</h2>
+      <p>BRAND YARD j.d.o.o. je tvrtka iz Rijeke specijalizirana za poslovnu podršku, marketing i brand consulting. 
+      Naš tim spaja iskustvo u strategiji, komunikaciji i dizajnu kako bismo Vašem brendu omogućili rast i prepoznatljivost.</p>
+      <p>Radimo s malim i srednjim poduzećima koja žele profesionalan pristup, jasno definiranu tržišnu poziciju i dugoročne rezultate.</p>
+      <p>Kroz analizu, planiranje i kreativnu realizaciju, pomažemo tvrtkama da donose bolje odluke i grade održivu reputaciju.</p>
+      <p>Naša filozofija je jednostavna – kombinirati znanje, iskustvo i strast kako bismo zajedno postigli izvrsnost.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1758599543152-a73184816eba?w=1600&auto=format&fit=crop&q=60" alt="O nama">
+  </section>
+
+  <!-- 3. Usluge -->
+  <section class="services" id="usluge">
+    <h2>Naše usluge</h2>
+
+    <div class="service-item">
+      <h3>Poslovna podrška</h3>
+      <p>Pružamo stratešku i operativnu podršku u svakodnevnom poslovanju. Od organizacijskih analiza do optimizacije procesa – stvaramo temelje za učinkovit rast.</p>
+    </div>
+
+    <div class="service-item">
+      <h3>Marketing i komunikacija</h3>
+      <p>Kreiramo marketinške strategije, kampanje i sadržaj koji donosi rezultate. Fokusirani smo na mjerljive ciljeve i stvaranje dugoročnih odnosa s publikom.</p>
+    </div>
+
+    <div class="service-item">
+      <h3>Brand consulting</h3>
+      <p>Pomažemo tvrtkama definirati, izgraditi i ojačati identitet brenda. Od vizualnog smjera do pozicioniranja – razvijamo brend koji govori za Vas.</p>
+    </div>
+  </section>
+
+  <!-- 4. Prednosti -->
+  <section class="advantages" id="prednosti">
+    <h2>Zašto odabrati nas</h2>
+
+    <div class="advantage-item">
+      <h3>Individualni pristup</h3>
+      <p>Svaki klijent je jedinstven. Naše strategije prilagođavamo potrebama, ciljevima i dinamici Vašeg poslovanja.</p>
+    </div>
+
+    <div class="advantage-item">
+      <h3>Kreativnost s ciljem</h3>
+      <p>Ne stvaramo samo lijepe ideje – stvaramo rješenja koja imaju poslovni smisao i donose stvarne rezultate.</p>
+    </div>
+
+    <div class="advantage-item">
+      <h3>Transparentnost i povjerenje</h3>
+      <p>Vjerujemo u otvorenu komunikaciju i partnerski odnos. Naš uspjeh mjeri se uspjehom naših klijenata.</p>
+    </div>
+  </section>
+
+  <!-- 5. Naš proces -->
+  <section class="process" id="proces">
+    <h2>Kako radimo</h2>
+
+    <div class="process-step">
+      <h3>1. Analiza i strategija</h3>
+      <p>Započinjemo dubinskom analizom tržišta, brenda i ciljeva kako bismo izgradili jasnu strategiju djelovanja.</p>
+    </div>
+
+    <div class="process-step">
+      <h3>2. Kreativna realizacija</h3>
+      <p>Ideje pretvaramo u konkretne kampanje, sadržaje i projekte koji komuniciraju autentičnost Vašeg brenda.</p>
+    </div>
+
+    <div class="process-step">
+      <h3>3. Mjerenje i rast</h3>
+      <p>Pratimo rezultate i kontinuirano optimiziramo pristup kako bi Vaš brend ostao korak ispred konkurencije.</p>
+    </div>
+  </section>
+
+  <!-- 6. Kontakt -->
+  <section class="contacts" id="kontakt">
+    <h2>Kontaktirajte nas</h2>
+    <p>Želite unaprijediti svoj brend ili razviti novi poslovni smjer? Javite nam se putem e-pošte i započnimo suradnju koja donosi stvarne rezultate.</p>
+    <p>📧 <a href="mailto:info@brandyard.marketing">info@brandyard.marketing</a></p>
+    <p>📍 Ulica Radmile Matejčić 10, 51000 Rijeka</p>
+  </section>
+
+  <footer>
+    © 2025 BRAND YARD j.d.o.o. Sva prava pridržana.
+  </footer>
+
+</body>
+</html>
